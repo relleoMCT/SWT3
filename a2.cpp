@@ -4,4 +4,7 @@
 
 using namespace ::std::literals;
 
-int main() { ::std::cout << "Hallo, Welt1"s << "\n"s; }
+int main() {
+	std::cout << "Hallo, Welt" << "\n";
+	std::cout << "hm" << std::endl;
+}
